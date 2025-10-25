@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Justice Heatmap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-dark: #0C0F17;
+        --primary: #00FFFF;
+        --accent: #F4C24C;
+        --error: #FF3366;
+        --text-muted: #A0A0A0;
+      }
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: var(--bg-dark);
+        color: var(--text-muted);
+      }
+      h1, h2, h3, .font-display {
+        font-family: 'Orbitron', sans-serif;
+      }
+      .glowing-border {
+        box-shadow: 0 0 2px var(--primary), 0 0 5px var(--primary), 0 0 10px var(--primary);
+      }
+      .glowing-text {
+        text-shadow: 0 0 2px var(--primary), 0 0 5px var(--primary);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "d3": "https://aistudiocdn.com/d3@^7.9.0",
+    "geojson": "https://aistudiocdn.com/geojson@^0.5.0",
+    "d3-fetch": "https://aistudiocdn.com/d3-fetch@^3.0.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+
+import type { County } from '../types';
+
+export const MOCK_COUNTY_DATA: County[] = [
+  { fips: "32031", county: "Washoe County", state: "Nevada", compliance_score: 42, violations: { "Speedy Trial": 18, "Brady": 6, "Due Process": 3 } },
+  { fips: "06037", county: "Los Angeles County", state: "California", compliance_score: 77, violations: { "Speedy Trial": 12, "Public Records": 9, "Eighth Amendment": 2 } },
+  { fips: "48201", county: "Harris County", state: "Texas", compliance_score: 55, violations: { "Due Process": 25, "Brady": 10, "Speedy Trial": 5 } },
+  { fips: "17031", county: "Cook County", state: "Illinois", compliance_score: 68, violations: { "Public Records": 15, "Speedy Trial": 8, "Brady": 4 } },
+  { fips: "04013", county: "Maricopa County", state: "Arizona", compliance_score: 35, violations: { "Eighth Amendment": 30, "Due Process": 12, "Speedy Trial": 9 } },
+  { fips: "12086", county: "Miami-Dade County", state: "Florida", compliance_score: 82, violations: { "Brady": 7, "Public Records": 5, "Due Process": 2 } },
+  { fips: "36061", county: "New York County", state: "New York", compliance_score: 91, violations: { "Speedy Trial": 3, "Public Records": 2, "Brady": 1 } },
+  { fips: "53033", county: "King County", state: "Washington", compliance_score: 88, violations: { "Public Records": 8, "Due Process": 4, "Speedy Trial": 1 } },
+  { fips: "26163", county: "Wayne County", state: "Michigan", compliance_score: 48, violations: { "Speedy Trial": 22, "Due Process": 15, "Eighth Amendment": 7 } },
+  { fips: "42101", county: "Philadelphia County", state: "Pennsylvania", compliance_score: 61, violations: { "Brady": 19, "Due Process": 9, "Public Records": 3 } },
+  { fips: "08031", county: "Denver County", state: "Colorado", compliance_score: 79, violations: { "Public Records": 11, "Speedy Trial": 6, "Due Process": 3 } },
+  { fips: "29510", county: "St. Louis City", state: "Missouri", compliance_score: 52, violations: { "Due Process": 28, "Brady": 14, "Eighth Amendment": 6 } },
+  { fips: "37119", county: "Mecklenburg County", state: "North Carolina", compliance_score: 75, violations: { "Speedy Trial": 10, "Public Records": 7, "Brady": 2 } },
+  { fips: "25025", county: "Suffolk County", state: "Massachusetts", compliance_score: 85, violations: { "Brady": 5, "Due Process": 3, "Public Records": 1 } },
+  { fips: "13121", county: "Fulton County", state: "Georgia", compliance_score: 63, violations: { "Due Process": 17, "Speedy Trial": 11, "Brady": 6 } },
+  { fips: "48113", county: "Dallas County", state: "Texas", compliance_score: 65, violations: { "Brady": 18, "Speedy Trial": 10, "Public Records": 5 } },
+  { fips: "06075", county: "San Francisco County", state: "California", compliance_score: 92, violations: { "Public Records": 6, "Brady": 2, "Due Process": 1 } },
+  { fips: "11001", county: "District of Columbia", state: "DC", compliance_score: 78, violations: { "Speedy Trial": 9, "Due Process": 6, "Eighth Amendment": 3 } },
+  { fips: "47065", county: "Hamilton County", state: "Tennessee", compliance_score: 71, violations: { "Due Process": 11, "Brady": 4, "Public Records": 2 } },
+  { fips: "24510", county: "Baltimore City", state: "Maryland", compliance_score: 45, violations: { "Eighth Amendment": 25, "Speedy Trial": 15, "Due Process": 10 } },
+  { fips: "21111", county: "Jefferson County", state: "Kentucky", compliance_score: 58, violations: { "Brady": 20, "Due Process": 12, "Speedy Trial": 7 } },
+  { fips: "48439", county: "Tarrant County", state: "Texas", compliance_score: 69, violations: { "Speedy Trial": 14, "Public Records": 8, "Brady": 3 } },
+  { fips: "34017", county: "Hudson County", state: "New Jersey", compliance_score: 81, violations: { "Public Records": 9, "Due Process": 4, "Speedy Trial": 2 } },
+  { fips: "06001", county: "Alameda County", state: "California", compliance_score: 83, violations: { "Brady": 7, "Public Records": 5, "Due Process": 3 } },
+  { fips: "48029", county: "Bexar County", state: "Texas", compliance_score: 62, violations: { "Due Process": 21, "Speedy Trial": 13, "Eighth Amendment": 5 } },
+  { fips: "18097", county: "Marion County", state: "Indiana", compliance_score: 59, violations: { "Speedy Trial": 19, "Brady": 11, "Due Process": 8 } },
+  { fips: "39061", county: "Hamilton County", state: "Ohio", compliance_score: 73, violations: { "Public Records": 13, "Due Process": 6, "Speedy Trial": 4 } },
+  { fips: "06059", county: "Orange County", state: "California", compliance_score: 76, violations: { "Brady": 11, "Public Records": 7, "Eighth Amendment": 4 } },
+  { fips: "06073", county: "San Diego County", state: "California", compliance_score: 80, violations: { "Speedy Trial": 8, "Public Records": 6, "Due Process": 3 } },
+  { fips: "45019", county: "Charleston County", state: "South Carolina", compliance_score: 70, violations: { "Due Process": 14, "Brady": 8, "Public Records": 3 } },
+  { fips: "51059", county: "Fairfax County", state: "Virginia", compliance_score: 89, violations: { "Public Records": 7, "Speedy Trial": 3, "Brady": 1 } },
+  { fips: "27053", county: "Hennepin County", state: "Minnesota", compliance_score: 86, violations: { "Brady": 6, "Due Process": 4, "Public Records": 2 } },
+  { fips: "41051", county: "Multnomah County", state: "Oregon", compliance_score: 84, violations: { "Public Records": 10, "Speedy Trial": 5, "Due Process": 2 } }
+];

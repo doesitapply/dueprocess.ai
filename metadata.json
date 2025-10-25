@@ -1,0 +1,5 @@
+{
+  "name": "AI Justice Heatmap",
+  "description": "An interactive heatmap of U.S. counties visualizing 'Constitutional Compliance Scores'. It features dynamic tooltips and uses Gemini to provide AI-powered insights and summaries for selected regions.",
+  "requestFramePermissions": []
+}
